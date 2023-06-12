@@ -15,9 +15,9 @@ global:
     service:
       ngap:
         enabled: false
-        name: amf-n2
+        name: open5gs-amf-ngap
         port: 38412
-        nodeport: 38412
+        nodeport: 31412
         protocol: SCTP
         type: NodePort
   smf:
